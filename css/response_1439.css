@@ -1,0 +1,486 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 28px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination a
+    {
+        font-size: 16px;
+        line-height: 42px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        min-width: 144px;
+        padding: 12px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 180px;
+        height: 56px;
+    }
+
+
+    header .menu,
+    header .data
+    {
+        width: calc(50% - 148px);
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: var(--font_size);
+        line-height: 23px;
+
+        height: 100px;
+    }
+
+
+    header .phone
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    header .callback_btn
+    {
+        font-size: 13px;
+    }
+
+
+    header .icons > * + *
+    {
+        margin-left: 28px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 22px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+    }
+
+    .text_block h4
+    {
+        font-size: 18px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3,
+    .text_block * + h4
+    {
+        margin-top: 60px;
+    }
+
+
+    .text_block .sep
+    {
+        width: 100px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+    .text_block table th + th
+    {
+        padding-left: 48px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .cont
+    {
+        min-height: 650px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 50px;
+    }
+
+
+    .main_slider .desc
+    {
+        font-size: 17px;
+        line-height: 27px;
+
+        width: 560px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .category .name
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 20px 24px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .data
+    {
+        width: calc(100% - 388px);
+    }
+
+
+    .cart_info .product .thumb
+    {
+        width: 200px;
+        height: 264px;
+    }
+
+
+    .cart_info .product .thumb + div
+    {
+        width: calc(100% - 224px);
+    }
+
+
+    .cart_info aside
+    {
+        width: 340px;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .form
+    {
+        width: calc(100% - 388px);
+    }
+
+
+    .checkout_info .form .section .title
+    {
+        font-size: 24px;
+        line-height: 32px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .checkout_info .form .tooltip .text
+    {
+        font-size: 13px;
+        line-height: 21px;
+
+        width: 208px;
+    }
+
+
+
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head .links
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .sizes .size div
+    {
+        line-height: 36px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .products .product .buy_btn,
+    .products .product .favorite_btn
+    {
+        height: 48px;
+    }
+
+
+    .products .product .buy_btn .icon,
+    .products .product .favorite_btn .icon
+    {
+        width: 24px;
+        height: 22px;
+    }
+
+
+
+    /*---------------
+        Look book
+    ---------------*/
+    .look_book .item .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+
+        bottom: 24px;
+
+        width: 220px;
+        padding: 24px;
+    }
+
+
+
+    /*------------------------
+        LK info - Personal
+    ------------------------*/
+    .lk_info .personal .form
+    {
+        width: calc(100% - 388px);
+    }
+
+
+    .lk_info .personal .btns
+    {
+        width: 360px;
+    }
+
+
+
+    /*------------------------
+        LK info - Password
+    ------------------------*/
+    .lk_info .password .form
+    {
+        width: calc(100% - 388px);
+    }
+
+
+
+    /*----------------------
+        LK info - Orders
+    ----------------------*/
+    .lk_info .orders .cart_info .product .thumb
+    {
+        width: 200px;
+        height: 264px;
+    }
+
+
+    .lk_info .orders .cart_info .product .thumb + div
+    {
+        width: calc(100% - 224px);
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: calc(100% - 492px);
+    }
+
+
+    .product_info > .cont > .data
+    {
+        width: 452px;
+    }
+
+
+    .product_info .colors,
+    .product_info .sizes,
+    .product_info .buy
+    {
+        margin-top: 28px;
+    }
+
+
+    .product_info .price
+    {
+        margin-top: 28px;
+        padding-top: 28px;
+    }
+
+
+    .product_info .price .old
+    {
+        margin-left: 16px;
+    }
+
+
+    .product_info .buy .btns > *
+    {
+        width: 50%;
+    }
+
+
+    .product_info .buy .buy_btn
+    {
+        width: 100%;
+    }
+
+
+    .product_info .buy .wb_btn,
+    .product_info .buy .ozon_btn
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .product_info .buy .quike_buy_btn
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    .product_info .buy .favorite_btn
+    {
+        position: absolute;
+        right: 0;
+        bottom: 100%;
+
+        width: auto;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+
+    .product_info .accordion_item .head .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .block_head
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        width: 600px;
+    }
+
+
+
+    /*------------------
+        Filter modal
+    ------------------*/
+    #filter_modal
+    {
+        width: 400px;
+    }
+
+
+    #filter_modal .close_btn,
+    #filter_modal .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------------------
+        Product images modal
+    --------------------------*/
+    #product_images_modal
+    {
+        padding: 24px;
+    }
+
+
+    #product_images_modal .images .thumbs
+    {
+        width: 80px;
+    }
+
+
+    #product_images_modal .stickers
+    {
+        left: 68px;
+    }
+
+
+    #product_images_modal .images .big
+    {
+        width: 588px;
+    }
+
+
+    #product_images_modal .images .big .swiper
+    {
+        padding: 0 48px;
+    }
+
+
+    #product_images_modal .images .image
+    {
+        height: calc(100vh - 48px);
+    }
+}
