@@ -1,6 +1,6 @@
 <?// подключение служебной части пролога  
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");?> 
-  
+  ууууууууууу
 <?if (CModule::IncludeModule("sale")) { 
 	if (isset($_REQUEST["id"]) && intval($_REQUEST["id"])) {
 		$db_res = CSaleBasket::GetPropsList(
